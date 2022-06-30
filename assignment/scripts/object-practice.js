@@ -25,13 +25,17 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
+let fullName = me.firstName + me.lastName
+console.log(fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+let i = 0
+let favFood = me.favThreeFoods;
+console.log('first favorite food', favFood[0]);
+console.log('last favorite', favFood[2]);
 
 
 
